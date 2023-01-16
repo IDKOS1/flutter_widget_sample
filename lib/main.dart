@@ -117,7 +117,7 @@ class MyPage extends StatelessWidget {
             content: const Text('Like a new Snack bar!'),
             duration: const Duration(seconds: 2),
             action: SnackBarAction(
-              label: 'Undos',
+              label: 'Undo',
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => UndoPage()));
